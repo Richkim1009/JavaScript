@@ -79,3 +79,4 @@ const derived = new Derived(1, 2); // Derived {a: 1, b: 2}
 
 // 서브클래스에서 constructor를 생략하지 않는 경우 서브클래스의 constructor에서 반드시 super를 호출해야 한다.
 // 서브클래스의 constructor에서 super를 호출하기 전에 this를 참조할 수 없다.
+//
