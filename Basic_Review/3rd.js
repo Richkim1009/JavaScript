@@ -48,7 +48,7 @@ for (const num of fibonacci) {
 } // 이터러블인 fibonacci를 순회할 때마다 next메서드가 호출
 
 // 이터러블이면서 이터레이터인 객체를 생성하는 함수
-const iterator = fibonacciFunc(5);
+const iterable = fibonacciFunc(5);
 const iterator = iterable[Symbol.iterator]();
 
 
