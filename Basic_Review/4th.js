@@ -14,7 +14,7 @@ const promise = new Promise((resolve, reject) => {
 Promise.all([promise1(), promise2(), promise3()]).then(console.log()).catch(console.error());
 
 // 프로미스의 후속 처리 메서드도 비동기로 동작
-// then, catch 마으크로태스크 큐에저장
+// then, catch 마이크로태스크 큐에저장
 // 태스크큐 보다 우선 순위가 높다.
 
 

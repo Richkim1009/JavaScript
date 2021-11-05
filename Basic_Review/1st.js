@@ -59,7 +59,8 @@ var Counter = (function () {
       return --num;
     }
   }
-})
+}())
+
 
 
 

@@ -108,7 +108,7 @@ const iterator = iterable[Symbol.iterator]();
 // 다른이름으로는 DOM 트리
 
 // HTMLCollection : children으로 얻는 엘리먼트
-// NodeList : childNodes, querySelectorAll로 얻는 엘리먼트
+// NodeList : childNodes, querySelectorAll로 얻는 엘리먼트
 // querySelectorAll()은 정적으로 변하는 값
 
 // Element.prototype.insertAdjacentHTML(position, DOMString) 메서드를 사용하자
